@@ -5,20 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Caesar cipher</title>
 </head>
 <body>
-    <div class="main">
-        <h1 class="title">Шифр цезаря</h1>
-        <input type="number" class="key" id="key" min="0" max="32">
-        <textarea name="" id="message" cols="30" rows="10" class="textform"></textarea>
-        <button class="button" id="apply">Зашифровать</button>
-    </div>
-    <div class="decrypted">
-        <p class="decrypted__text" id="decrypted">
+    <section class="section section__type_encode">
+            <h1 class="title">Шифр цезаря</h1>
+            <p class="subtitle">Ключ</p>
+            <input type="number" class="key" id="key" min="0" max="32">
+            <textarea id="message" cols="60" rows="10" class="textform"></textarea>
+            <button class="button" id="apply">Зашифровать</button>
+            <p class="result result__text" id="encrypted">
 
-        </p>
-    </div>
+            </p>
+    </section>
+
+    <section class="section section__type_decode">
+        <h1 class="title title__decrypt">Дешифратор</h1>
+        <p class="subtitle">Ключ</p>
+        <input type="number" class="key" id="keydecrypt" min="0" max="32">
+        <textarea name="" id="decrypt" cols="60" rows="10"></textarea>
+        <button class="button" id="btnDecrypt">Расшифровать</button>
+        <div class="result">
+            <p class="result__text" id="decrypted"></p>
+        </div>
+    </section>
     <script src="script.js">
 
     </script>

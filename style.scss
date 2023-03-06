@@ -7,18 +7,24 @@ body {
 }
 
 .title {
+    margin-top: 25px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     text-align: center;
     color :white;
 }
 
+.subtitle {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    color: white;
+}
 
-.main {
+.section {
     background-color: lightblue;
     background-position: cover;
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,12 +32,18 @@ body {
     gap: 15px
 }
 
+.key {
+    width: 75px;
+    height: 25px;
+}
 
-.decrypted {
-    height: 300px;
+.result {
+    height: 100%;
+    width: 90%;
     border: solid 1px black;
     &__text{
-
-        height: 10px;
+        word-wrap: break-word;
+        font-size: 24px;
     }
 }
+

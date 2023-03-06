@@ -7,17 +7,24 @@ body {
 }
 
 .title {
+  margin-top: 25px;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
   text-align: center;
   color: white;
 }
 
-.main {
+.subtitle {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  color: white;
+}
+
+.section {
   background-color: lightblue;
   background-position: cover;
-  width: 100vw;
-  height: 50vh;
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,10 +32,17 @@ body {
   gap: 15px;
 }
 
-.decrypted {
-  height: 300px;
+.key {
+  width: 75px;
+  height: 25px;
+}
+
+.result {
+  height: 100%;
+  width: 90%;
   border: solid 1px black;
 }
-.decrypted__text {
-  height: 10px;
+.result__text {
+  word-wrap: break-word;
+  font-size: 24px;
 }/*# sourceMappingURL=style.css.map */
