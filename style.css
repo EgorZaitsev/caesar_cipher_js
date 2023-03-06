@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.title {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+.main {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTANfmAp2MB0ep8sGyy2IGTqMIbGwBuiLBxRD_mQMJj4w&s);
+  background-position: cover;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.decrypted {
+  height: 300px;
+  border: solid 1px black;
+}
+.decrypted__text {
+  height: 10px;
+}/*# sourceMappingURL=style.css.map */
