@@ -14,7 +14,7 @@ body {
 }
 
 .main {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTANfmAp2MB0ep8sGyy2IGTqMIbGwBuiLBxRD_mQMJj4w&s);
+  background-color: lightblue;
   background-position: cover;
   width: 100vw;
   height: 50vh;
